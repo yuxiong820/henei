@@ -7,10 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="henei-enterprise-java" />
-        <module name="henei-headhunting-java" />
+        <module name="henei-headhunting-java-dao" />
+        <module name="henei-headhunting-java-impl" />
+        <module name="henei-headhunting-java-service" />
         <module name="henei-job-java" />
         <module name="henei-jobhunter-java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="henei-enterprise-java" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

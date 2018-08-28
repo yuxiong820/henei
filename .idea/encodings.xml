@@ -3,8 +3,15 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/henei-enterprise-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-enterprise-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/henei-headhunting-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-headhunting-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-headhunting-java/henei-headhunting-java-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-headhunting-java/henei-headhunting-java-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-headhunting-java/henei-headhunting-java-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/henei-job-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-job-java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/henei-jobhunter-java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/henei-jobhunter-java" charset="UTF-8" />
   </component>
 </project>
