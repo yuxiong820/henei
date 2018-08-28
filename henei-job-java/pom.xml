@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>henei-job-java</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>henei-job-java-dao</module>
+        <module>henei-job-java-impl</module>
+        <module>henei-job-java-service</module>
+    </modules>
 
 
 </project>

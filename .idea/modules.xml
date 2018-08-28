@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java.iml" filepath="$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/henei-jobhunter-java-dao.iml" filepath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/henei-jobhunter-java-dao.iml" />
     </modules>
   </component>
 </project>
