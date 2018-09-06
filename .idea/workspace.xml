@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21e65397-1c82-4a30-a812-e0b65c3d3386" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-job-java/henei-job-java-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-job-java/henei-job-java-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-job-java/henei-job-java-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/impl/JobhunterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/META-INF/spring/dubbo-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/dubbo_common_config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/JobhunterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/src/main/java/com/henei/jobhunter/IJobhunterSevice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/henei-enterprise-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-enterprise-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/henei-headhunting-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-headhunting-java/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/henei-job-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-job-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/henei-jobhunter-java-dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/henei-jobhunter-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/henei-jobhunter-java/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/henei-headhunting-java/henei-headhunting-java-impl/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,93 +42,171 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="809920768">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="xml" value="12" />
+          <entry key="java" value="14" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="XML" value="12" />
+          <entry key="JAVA" value="14" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="1" />
+          <entry key="java" value="320" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="320" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="130" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java-impl/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-job-java/henei-job-java-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-job-java/henei-job-java-impl/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-job-java/henei-job-java-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/pom.xml">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/impl/JobhunterServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="352">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/henei-job-java/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/META-INF/spring/dubbo-provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="116" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/JobhunterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" selection-start-line="11" selection-end-line="12" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>maven.compiler.source</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,7 +214,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/Main.java" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/dubbo_common_config.properties" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/src/main/java/com/henei/jobhunter/IJobhunterSevice.java" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/META-INF/spring/dubbo-provider.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/henei-jobhunter-java/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-job-java/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-headhunting-java/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-enterprise-java/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/impl/JobhunterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/BaseTest.java" />
+        <option value="$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/JobhunterTest.java" />
       </list>
     </option>
   </component>
@@ -150,10 +241,16 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/devsoft/maven/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\devsoft\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../soft/maven" />
+        <option name="userSettingsFile" value="E:\喻熊\lin\soft\maven\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="536" />
@@ -198,6 +295,100 @@
               <item name="henei" type="462c0819:PsiDirectoryNode" />
               <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jobhunter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jobhunter" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="henei" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java" type="462c0819:PsiDirectoryNode" />
+              <item name="henei-jobhunter-java-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="henei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -208,10 +399,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535452586783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536222640239" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\喻熊\lin\code\henei\henei-jobhunter-java\henei-jobhunter-java-impl\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,6 +421,67 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="TestNG.JobhunterTest.testGetJobhunterById">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henei.jobhunter.Main" />
+      <module name="henei-jobhunter-java-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henei.jobhunter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobhunterTest.testGetJobhunterById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="henei-jobhunter-java-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henei.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henei.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henei.test.JobhunterTest" />
+      <option name="METHOD_NAME" value="testGetJobhunterById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobhunterTest.testGetJobhunterById" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="henei-jobhunter-java-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henei.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henei.test" />
+      <option name="MAIN_CLASS_NAME" value="com.henei.test.JobhunterTest" />
+      <option name="METHOD_NAME" value="testGetJobhunterById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.JobhunterTest.testGetJobhunterById" />
+      <item itemvalue="TestNG.JobhunterTest.testGetJobhunterById" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.JobhunterTest.testGetJobhunterById" />
+        <item itemvalue="JUnit.JobhunterTest.testGetJobhunterById" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -235,56 +492,136 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535452227050</updated>
-      <workItem from="1535452230486" duration="353000" />
+      <workItem from="1535452230486" duration="6860000" />
+      <workItem from="1536217638568" duration="3808000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JobhunterTest_testGetJobhunterById - 2018.08.29 at 10h 19m 58s.xml">
+      <configuration name="JobhunterTest.testGetJobhunterById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobhunterTest_testGetJobhunterById - 2018.09.06 at 15h 11m 30s.xml">
+      <configuration name="JobhunterTest.testGetJobhunterById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobhunterTest_testGetJobhunterById - 2018.09.06 at 15h 55m 34s.xml">
+      <configuration name="JobhunterTest.testGetJobhunterById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobhunterTest_testGetJobhunterById - 2018.09.06 at 16h 11m 00s.xml">
+      <configuration name="JobhunterTest.testGetJobhunterById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobhunterTest_testGetJobhunterById - 2018.09.06 at 16h 28m 06s.xml">
+      <configuration name="JobhunterTest.testGetJobhunterById" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353000" />
+    <option name="totallyTimeSpent" value="10668000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26391983" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2572383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26391983" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2594655" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/impl/JobhunterServiceImpl.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/JobhunterTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/henei-enterprise-java/henei-enterprise-java-dao/pom.xml">
@@ -305,22 +642,122 @@
     <entry file="file://$PROJECT_DIR$/henei-job-java/henei-job-java-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/dubbo_common_config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="9" selection-start-line="1" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/henei-job-java/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-enterprise-java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-headhunting-java/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/src/main/java/com/henei/jobhunter/IJobhunterSevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/java/com/henei/jobhunter/impl/JobhunterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/main/resources/META-INF/spring/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="116" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/henei-jobhunter-java/henei-jobhunter-java-impl/src/test/java/com/henei/test/JobhunterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
